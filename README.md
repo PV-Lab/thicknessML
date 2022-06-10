@@ -34,7 +34,16 @@ This will create a minimal environment with only Python installed in it. To put 
 ```
 source activate thicknessML
 ```
+or
+
+```
+conda activate thicknessML
+```
+
 Now you're ready to run `pip install -r requirements.txt` once navigated into the cloned/downloaded thicknessML folder.
+
+After the once-for-all installation, every time before running the code as described in [Usage](#usage),
+ simply activate the installed environment by `source/conda activate thicknessML`.
 
 
 # Usage
