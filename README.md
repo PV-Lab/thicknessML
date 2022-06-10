@@ -16,7 +16,7 @@ Please cite the following work if you want to use _thicknessML_
 ```
 To be added
 ```
-# Installiation
+# Installation
 To install, clone the repository, navigate to the folder, and use `pip install -r requirements.txt` in a python 3.6 environment.
 
 ## A possible way to create a python 3.6 enviroment with conda[^1]
