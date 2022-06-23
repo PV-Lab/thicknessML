@@ -85,4 +85,4 @@ _loading STL pre-trained models is toggled by adding `--STL` as in Stage 1_
 # Authors
 The code was primarily written by Siyu Isaac Parker Tian and Zhe Liu, under the supervision of Zhe Liu, Tonio Buonassisi and Qianxiao Li.
 
-[^1]: explanations of this section are borrowed from https://pandas.pydata.org/docs/getting_started/install.html
+[^1]: explanations of this section borrow from https://pandas.pydata.org/docs/getting_started/install.html
