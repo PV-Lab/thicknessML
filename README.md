@@ -68,6 +68,15 @@ python transfer-learning.py --full-weight
 ``` 
 _loading STL pre-trained models is toggled by adding `--STL` as in Stage 1_
 
+## Another way to obtain identical datasets
+1. Download compressed data file `data.tar.gz` from [https://doi.org/10.6084/m9.figshare.23501715.v1](https://doi.org/10.6084/m9.figshare.23501715.v1)
+2. Move `data.tar.gz` to inside the data directory.
+3. Run `tar -xvf data.tar.gz` after navigating into the data directory.
+
+Datasets will automatically appear in folder [data](./data/) after uncompressing using `tar`.
+
+Note that `.h5` files are quite reliant on specific `h5py` version. Please make sure to have `h5py` of `2.10.0` for smooth opening of the data files.
+
 ## Included scripts and folders:
 
 | Scripts | Description |
@@ -80,7 +89,6 @@ _loading STL pre-trained models is toggled by adding `--STL` as in Stage 1_
 | ------------- | ------------------------------ |
 | [data](./data)  | hosts saved datasets; the [utils](./data/utils/) folder within also contains scripts for Tauc-Lorentz oscillator `TaucLorentz.py` and transfer-matrix method `ScatteringMatrix.py`. |
 | [pre-trained models](./pre-trained%20models/) | hosts pre-trained models; pre-trained models outputted by a running of `pre-training.py` will replace the current saved pre-trained models.
-
 
 # Authors
 The code was primarily written by Siyu Isaac Parker Tian and Zhe Liu, under the supervision of Zhe Liu, Tonio Buonassisi and Qianxiao Li.
