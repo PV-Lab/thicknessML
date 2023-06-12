@@ -75,7 +75,7 @@ _loading STL pre-trained models is toggled by adding `--STL` as in Stage 1_
 
 Datasets will automatically appear in folder [data](./data/) after uncompressing using `tar`.
 
-Note that `.h5` files are quite reliant on specific `h5py` version. Please make sure to have `h5py` of `2.10.0` for smooth opening of the data files.
+**Note that `.h5` files are quite reliant on specific `h5py` version. Please make sure to have `h5py` of `2.10.0` for smooth opening of the data files.**
 
 ## Included scripts and folders:
 
